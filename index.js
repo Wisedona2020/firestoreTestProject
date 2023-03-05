@@ -29,7 +29,7 @@ import * as firebaseui from 'firebaseui';
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
 const guestbookContainer = document.getElementById('guestbook-container');
-
+const personalAcct = document.getElementById('showAcct');
 const form = document.getElementById('leave-message');
 const input = document.getElementById('message');
 const guestbook = document.getElementById('guestbook');

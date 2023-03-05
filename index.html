@@ -33,7 +33,7 @@
       <p><i class="material-icons">calendar_today</i> October 30</p>
       <p><i class="material-icons">location_city</i>Achimota New Station </p>
       <button id="startRsvp">Get started </button>
-      <button >Show Account </button>
+      <button  id="showAcct">Show Account </button>
       
     </section>
 
@@ -41,10 +41,12 @@
     <section>
     <form id="wdscAcct">
 
-        <label>Leave a message: </label>
+        <label>FILL THIS FORM TO JOIN WDSC  ACCOUNT: </label>
 
-        <input type="text" id="message" />
-
+        <input type="text" id="fullName" placeholder="Your full name" required />
+        <input type="tel" id="phoneNum" placeholder="Personal phone number" required/>
+        <input type="text" id="nextOfKin" placeholder="Name of next of kin" required/>
+        <input type="tel" id="phone" placeholder="Kin's phone number" required/>
         <button type="submit">
 
           <i class="material-icons">send</i>
@@ -60,8 +62,8 @@
     <section id="firebaseui-auth-container"></section>
 
     <section id="description-container">
-      <h2>What we'll be doing</h2>
-      <p>Join us for a day full of Firebase Workshops and Pizza!</p>
+      <h2>What are your problems</h2>
+      <p>Join us to discuss our problems</p>
 
       <p id="number-attending"></p>
     </section>
